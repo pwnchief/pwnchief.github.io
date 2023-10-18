@@ -1,0 +1,4 @@
+baseURL = 'https://pwnchief.github.io/'
+languageCode = 'en-us'
+title = 'pwnchiefs blog'
+theme = "PaperMod"
