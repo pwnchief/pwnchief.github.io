@@ -1,0 +1,54 @@
+baseURL: https://blog.pwnchief.dev
+languageCode: en-us
+title: pwnchief's blog
+theme: ["PaperMod"]
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+author: Abhishek Jaiswal
+menu:
+  main:
+    - name: archives
+      url: archives
+      weight: 1
+    - name: about/me
+      url: /aboutme
+      weight: 3
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+minify:
+  disableXML: true
+params:
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  displayFullLangName: true
+  disableSpecial1stPost: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+
+  # homeInfoParams:
+  #   Title: Hi there !
+  #   Content: |
+  #     This blog describes my journey through infosec.
+
+  socialIcons: # optional
+    - name: "LinkedIn"
+      title: Connect on Linkedin
+      url: "https://www.linkedin.com/in/abhijaiswa/"
+    - name: "X"
+      title: Connect on X.com
+      url: "https://x.com/pwnchief"
+    - name: "Github"
+      title: View Github Profile
+      url: "https://github.com/pwnchief"
